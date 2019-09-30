@@ -1,0 +1,48 @@
+body {
+  margin: 30px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+        grid-template-columns: 100px 100px 100px;
+        background-color: #fff;
+        color: #444;
+    }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 0px;
+    padding: 20px;
+    font-size: 150%;
+    text-align: center
+    }
+
+  .a {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    }
+
+  .b {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    }
+
+  .c {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    }
+
+  .d {
+    grid-column: 2;
+    grid-row: 3;
+    }
+
+  .e {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+
+
