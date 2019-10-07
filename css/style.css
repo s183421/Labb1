@@ -1,10 +1,10 @@
 body {
-  margin: 30px;
+  margin: 30px 0px, 30px 0px;
 }
 
 .wrapper {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-columns: 100;
     grid-template-rows: 100;
     background-color: #fff;
@@ -12,6 +12,7 @@ body {
     max-width: 1000px;
     margin: auto;
     }
+
 form{
   float: right;
   padding: 3px;
