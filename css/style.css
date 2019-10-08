@@ -13,6 +13,11 @@ body {
     margin: auto;
     }
 
+#kontakter{
+  text-align: center;
+  font-size: 20px;
+}
+
 form{
   float: right;
   padding: 3px;
@@ -25,6 +30,12 @@ form{
   margin: 5px 5px 5px 5px;
   color: black;
   min-width: 100px;
+  font-size: 14px;
+  text-align: left;
+  padding: 2px;
+}
+h1{
+  margin: 10px;
 }
 
 p{
@@ -74,7 +85,7 @@ li a:hover {
     border-color: blue;
     padding: 0px;
     font-size: 150%;
-    text-align: center
+    text-align: center;
     }
 
   .a {
@@ -86,6 +97,7 @@ li a:hover {
     grid-column: 1 ;
     grid-row: 2 / 30;
     min-width: 200px;
+    padding: 0px 8px 0px 0px;
     }
 
   .c {
@@ -103,7 +115,7 @@ li a:hover {
     grid-row: 3 / 30;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
       
     .b {
       grid-column: none;
