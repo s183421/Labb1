@@ -118,9 +118,7 @@ li a:hover {
   @media (max-width: 750px) {
       
     .b {
-      grid-column: none;
-      grid-row: none;
-      min-width: none;
+      display: none;
       }
       
     .c {
