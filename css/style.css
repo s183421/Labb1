@@ -1,7 +1,9 @@
 body {
   margin: 30px 0px 30px 0px;
 }
-
+footer{
+  margin: auto;
+}
 .wrapper {
     display: grid;
     grid-gap: 10px;
@@ -63,7 +65,7 @@ h2{
   font-family: Arial, Helvetica, sans-serif;
   text-align: Center;
   padding: 0px;
-  margin: 4px;
+  margin: 5px;
   color: black;
   font-size: 24px;
 }
@@ -71,16 +73,19 @@ h3{
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   padding: 0px;
-  margin: 4px;
+  margin: 5px;
   color: black;
   font-size: 20px;
 }
+.vali{
+  text-align: center;
 
+}
 p{
   text-align: left;
   font-size: 14px;
   color: black;
-  margin: 4px;
+  margin: 5px;
 }
 li {
   display: inline;
