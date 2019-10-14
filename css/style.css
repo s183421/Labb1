@@ -13,6 +13,14 @@ body {
     margin: auto;
     }
 
+  #sokform {
+      position: relative;
+    }
+  #sokruta {
+       position: absolute;
+       top: -27px;
+       right:10px;
+     }
 #kontakter{
   text-align: center;
   font-size: 20px;
@@ -52,12 +60,22 @@ form{
 }
 h1{
   margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: Center;
+  padding: 0px;
+  margin: 4px;
+  color: black;
+  font-size: 24px;
 }
 
 p{
   text-align: left;
   font-size: 14px;
-  color: black
+  color: black;
+  margin: 4px;
 }
 li {
   display: inline;
@@ -152,7 +170,17 @@ li a:hover {
       grid-row: 10 / 20;
     }
   } 
-
+  @media (max-width: 350px) {
+    #sokform {
+      position: relative;
+      
+    }
+     #sokruta {
+       position: absolute;
+       top: 0;
+       right:0;
+     }
+  }
 
 
   * {box-sizing:border-box}
