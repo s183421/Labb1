@@ -242,14 +242,9 @@ li a:hover {
     }
      #sokruta {
        position: absolute;
-       top: 0;
-       right:1;
-
      }
      #soksubmit {
        position:absolute;
-       top:0;
-       right:0
      }
   }
 
