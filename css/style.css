@@ -33,20 +33,20 @@ footer{
       right:10px;
     }
 
-#kontakter{
+.kontakter{
   text-align: center;
   font-size: 20px;
 }
-#bigpic{
+.bigpic{
   width: 30%;
 }
 #select{
   background-color: #cdf0fd;
 }
-#smallpic{
+.smallpic{
   width: 5%;
 }
-#smalltext{
+.smalltext{
   font-size: 16px;
 }
 
